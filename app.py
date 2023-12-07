@@ -42,7 +42,7 @@ elif  user_option=='Analytics':
         x=city,
         y=frequncy1
     )
-    st.header('busist Aiport')
+    st.header('busy Aiport')
     st.plotly_chart(fig,theme="streamlit",use_container_width=True)
 
 
@@ -57,7 +57,7 @@ elif  user_option=='Analytics':
     st.plotly_chart(fig,theme="streamlit",use_container_width=True)
 
 else:
-    st.title("Tell abou the project")
+    st.title("Tell about the project")
     
         
 
